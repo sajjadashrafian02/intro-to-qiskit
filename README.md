@@ -58,7 +58,8 @@ The notebook covers fundamental concepts, including:
 Install dependencies:
 
 ```bash
-pip install qiskit qiskit-aer matplotlib
+pip install qiskit-textbook
+```
 ## 5. Usage
 
 ### 5.1 Clone the repository
@@ -66,6 +67,7 @@ pip install qiskit qiskit-aer matplotlib
 ```bash
 git clone https://github.com/yourusername/quantum-qiskit-course.git
 cd quantum-qiskit-course
+```
 ## 5.3 Run the Notebook
 
 Open the notebook file and execute each cell sequentially.
@@ -84,6 +86,7 @@ qc.h(0)
 qc.cx(0, 1)
 qc.measure_all()
 qc.draw("mpl")
+```
 **Produces:**  
 ![Circuit Diagram Placeholder](path/to/circuit-diagram.png)
 
@@ -95,6 +98,7 @@ qc.draw("mpl")
 from qiskit.visualization import plot_histogram
 
 plot_histogram({'00': 512, '11': 512})
+```
 **Shows probability distribution:**  
 ![Histogram Placeholder](path/to/histogram.png)
 
@@ -106,6 +110,7 @@ plot_histogram({'00': 512, '11': 512})
 from qiskit.visualization import plot_bloch_multivector
 
 plot_bloch_multivector(statevector)
+```
 **Visualizes qubit states:**  
 ![Bloch Sphere Placeholder](path/to/bloch-sphere.png)
 
