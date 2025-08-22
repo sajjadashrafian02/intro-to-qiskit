@@ -87,9 +87,6 @@ qc.cx(0, 1)
 qc.measure_all()
 qc.draw("mpl")
 ```
-**Produces:**  
-![Circuit Diagram Placeholder](path/to/circuit-diagram.png)
-
 ---
 
 ## 6.2 Measurement Histogram
@@ -99,9 +96,6 @@ from qiskit.visualization import plot_histogram
 
 plot_histogram({'00': 512, '11': 512})
 ```
-**Shows probability distribution:**  
-![Histogram Placeholder](path/to/histogram.png)
-
 ---
 
 ## 6.3 Bloch Sphere
@@ -111,9 +105,6 @@ from qiskit.visualization import plot_bloch_multivector
 
 plot_bloch_multivector(statevector)
 ```
-**Visualizes qubit states:**  
-![Bloch Sphere Placeholder](path/to/bloch-sphere.png)
-
 ---
 
 ## 7. Acknowledgments
